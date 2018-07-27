@@ -13,3 +13,5 @@ title:
 
 Specifies default value by an array, but `nzOptions` is `null`/empty, data are loaded by `nzLoadData` function.
 
+
+[nzLoadData]="loadData"   public loadData=（'',''）:PromiseLike<any>{};
